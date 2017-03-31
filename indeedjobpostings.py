@@ -1,6 +1,9 @@
-from bs4 import BeautifulSoup # For HTML parsing
-# Modified parts of the Original code of Jesse Steinweg-Woods of Texas A&M
+####################################################################################
 
+# Minor modifications on the Original code of Jesse Steinweg-Woods of Texas A&M
+
+##################################################################################
+from bs4 import BeautifulSoup # For HTML parsing
 import urllib2 # Website connections
 import re # Regular expressions
 from time import sleep # To prevent overwhelming the server between connections
